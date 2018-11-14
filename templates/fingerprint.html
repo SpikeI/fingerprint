@@ -1,0 +1,85 @@
+<html>
+<head>
+</head>
+
+<body>
+<div  class = "text-center" id = "status">Fingerprinting GPU...</div>
+ 
+ <div id = "test_canvases">
+ </div>
+ 
+ <object id="fontListSWF" name="fontListSWF" type="application/x-shockwave-flash"
+   data="fonts/FontList.swf" width="1" height="1">
+    <param name="movie" value="FontList.swf">
+    <embed src="FontList.swf" width="1" height="1">
+ </object>
+
+<div id="ask_panel" hidden>
+    Do you have an ID?
+    <button onclick="choose_have_id(true)">YES</button>
+    <button onclick="choose_have_id(false)">NO</button>
+</div>
+{#<form id="info_form" action="">#}
+{#    <input id="name" name="id" type="text">#}
+{#</form>#}
+
+<script src="/static/config.js"></script>
+
+<!-- first storage -->
+<script src="/static/fingerprint/first_storage.js"></script>
+
+<!-- second browser fingerprint -->
+<script src="/static/fingerprint/second_fingerprint.js"></script>
+
+<!-- third cross browser fingerprint -->
+<script src="/static/crossBrowserJS/network/seedrandom.min.js"></script>
+<script src="/static/crossBrowserJS/network/jquery-2.1.4.min.js"></script>
+<script src="/static/crossBrowserJS/network/bootstrap-select.min.js"></script>
+<script src="/static/crossBrowserJS/network/clipboard.min.js"></script>
+<script src="/static/crossBrowserJS/network/bootstrap.min.js"></script>
+<script src="/static/crossBrowserJS/depth_texture/framework.js"></script>
+<script src="/static/crossBrowserJS/depth_texture/meshes.js"></script>
+<script src="/static/crossBrowserJS/depth_texture/webgl-nuke-vendor-prefix.js"></script>
+<script src="/static/crossBrowserJS/depth_texture/webgl-texture-float-extension-shims.js"></script>
+<script src="/static/crossBrowserJS/three/three.js"></script>
+<script src="/static/crossBrowserJS/three/js/Detector.js"></script>
+<script src="/static/crossBrowserJS/three/js/shaders/FresnelShader.js"></script>
+<script src="/static/crossBrowserJS/three/js/loaders/DDSLoader.js"></script>
+<script src="/static/crossBrowserJS/three/js/loaders/PVRLoader.js"></script>
+
+<script src="/static/crossBrowserJS/advert.js"></script>
+<script src="/static/crossBrowserJS/cookie.js"></script> <!-- not used -->
+<script src="/static/crossBrowserJS/loader.js"></script> <!-- load func module -->
+<script src="/static/crossBrowserJS/util.js"></script>
+<script src="/static/crossBrowserJS/gl-matrix.js"></script>
+<script src="/static/crossBrowserJS/audio.js"></script>
+<script src="/static/crossBrowserJS/sha1.js"></script>
+<script src="/static/crossBrowserJS/detect-zoom.min.js"></script>
+<script src="/static/crossBrowserJS/toServer.js"></script>
+<script src="/static/crossBrowserJS/languageDetector.js"></script>
+<script src="/static/crossBrowserJS/progressctl.js"></script>
+<script src="/static/crossBrowserJS/fontdetect.js"></script>
+
+<script src="/static/crossBrowserJS/texture/app.js"></script>
+<script src="/static/crossBrowserJS/cube/no_texture.js"></script>
+<script src="/static/crossBrowserJS/camera/camera.js"></script>
+<script src="/static/crossBrowserJS/line/app.js"></script>
+<script src="/static/crossBrowserJS/simpleLight/app.js"></script>
+<script src="/static/crossBrowserJS/moreLight/app.js"></script>
+<script src="/static/crossBrowserJS/twoTexturesMoreLight/app.js"></script>
+<script src="/static/crossBrowserJS/transparent/app.js"></script>
+<script src="/static/crossBrowserJS/video/video.js"></script>
+<script src="/static/crossBrowserJS/canvas/canvas.js"></script>
+<script src="/static/crossBrowserJS/three/lighting.js"></script>
+<script src="/static/crossBrowserJS/three/clipping.js"></script>
+<script src="/static/crossBrowserJS/three/bubbles.js"></script>
+<script src="/static/crossBrowserJS/three/compressedTexture.js"></script>
+<script src="/static/crossBrowserJS/depth_texture/vsm-filtered-shadow.js"></script>
+<script src="/static/crossBrowserJS/languages/languageDetector.js"></script>
+<script src="/static/fingerprint/third_crossbrowser.js"></script>
+<script src="/static/crossBrowserJS/WebRTC.js"></script>
+
+<script src="/static/fingerprint/main.js"></script>
+<script src="/static/utils.js"></script>
+</body>
+</html>
